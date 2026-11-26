@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Imię Nazwisko" />
+    <title>Rzutniki — wycena</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <p class="znak">INF.03 · zadanie 2</p>
+      <h1>Wypożyczalnia rzutników</h1>
+    </header>
+    <main>
+      <form id="formularz">
+        <label for="dni">Liczba dni</label>
+        <input id="dni" type="number" />
+        <label class="check" for="statyw">
+          <input id="statyw" type="checkbox" value="20" />
+          Statyw
+        </label>
+        <label class="check" for="pilot">
+          <input id="pilot" type="checkbox" value="15" />
+          Pilot
+        </label>
+        <button id="oblicz" type="button">Oblicz</button>
+      </form>
+      <p id="wynik">Tu pojawi się kwota.</p>
+    </main>
+    <footer>
+      <p>Imię Nazwisko klasa</p>
+    </footer>
+  </body>
+</html>

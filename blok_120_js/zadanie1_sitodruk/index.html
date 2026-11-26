@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Imię Nazwisko" />
+    <title>Sitodruk — wycena</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <p class="znak">INF.03 · zadanie 1</p>
+      <h1>Pracownia sitodruku</h1>
+    </header>
+    <main>
+      <form id="formularz">
+        <label for="nadruk">Rodzaj nadruku</label>
+        <select id="nadruk">
+          <option value="">Wybierz nadruk</option>
+          <option value="4">Jednokolorowy — 4 zł za sztukę</option>
+          <option value="7">Dwukolorowy — 7 zł za sztukę</option>
+          <option value="12">Pełnokolorowy — 12 zł za sztukę</option>
+        </select>
+        <label for="sztuki">Liczba sztuk</label>
+        <input id="sztuki" type="number" />
+        <button id="oblicz" type="button">Oblicz</button>
+      </form>
+      <p id="wynik">Tu pojawi się kwota.</p>
+    </main>
+    <footer>
+      <p>Imię Nazwisko klasa</p>
+    </footer>
+  </body>
+</html>

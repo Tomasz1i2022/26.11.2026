@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1c2430;
+  background: #f3f0e8;
+}
+
+header,
+main,
+footer {
+  width: min(40rem, calc(100% - 2rem));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  padding-top: 1.5rem;
+}
+
+.znak {
+  margin: 0;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #5c6570;
+}
+
+h1 {
+  margin: 0.2rem 0 1rem;
+  font-size: 1.8rem;
+}
+
+main {
+  background: #fff;
+  border: 1px solid #d9d3c7;
+  border-radius: 12px;
+  padding: 1.25rem 1.4rem 1.5rem;
+}
+
+label {
+  display: block;
+  margin-top: 0.8rem;
+  font-weight: 600;
+}
+
+input,
+select,
+button {
+  font: inherit;
+}
+
+input,
+select {
+  display: block;
+  width: 100%;
+  margin-top: 0.3rem;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid #b7b1a6;
+  border-radius: 8px;
+  background: #fff;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.55rem 1rem;
+  border: 0;
+  border-radius: 8px;
+  background: #0f6e56;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0c5a47;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.8rem;
+  font-weight: 600;
+}
+
+.check input {
+  width: auto;
+  margin: 0;
+}
+
+#wynik,
+#blad,
+#numer {
+  margin-top: 1rem;
+  min-height: 1.5em;
+}
+
+#blad {
+  color: #9b1c1c;
+  font-weight: 700;
+}
+
+.malo {
+  color: #9b1c1c;
+  font-weight: 700;
+}
+
+img {
+  display: block;
+  width: min(100%, 20rem);
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 8px;
+  border: 1px solid #d9d3c7;
+}
+
+.rzad {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+footer {
+  padding: 1rem 0 2rem;
+  color: #5c6570;
+  font-size: 0.9rem;
+}

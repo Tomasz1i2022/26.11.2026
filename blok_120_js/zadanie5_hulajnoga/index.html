@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Imię Nazwisko" />
+    <title>Hulajnoga — podgląd</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <p class="znak">INF.03 · zadanie 5</p>
+      <h1>Podgląd hulajnogi</h1>
+    </header>
+    <main>
+      <form id="formularz">
+        <label for="model">Model</label>
+        <select id="model">
+          <option value="miejska" selected>Miejska</option>
+          <option value="terenowa">Terenowa</option>
+          <option value="skladana">Składana</option>
+        </select>
+        <button id="pokaz" type="button">Pokaż model</button>
+      </form>
+      <img id="podglad" src="img/miejska.svg" alt="Hulajnoga miejska" />
+    </main>
+    <footer>
+      <p>Imię Nazwisko klasa</p>
+    </footer>
+  </body>
+</html>
